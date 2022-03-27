@@ -11,5 +11,13 @@
   },
   "keywords": [
     "seth123"
-  ]
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "sam1592/seth123",
+  "author": {
+    "name": "Satyam Sheth",
+    "email": "samsheth92@gmail.com",
+    "url": "https://github.com/sam1592/seth123/commits/main"
+  }
 }
