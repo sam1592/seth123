@@ -4,7 +4,7 @@ const clearConsole = require('clear-any-console');
 // Clears the console.
 clearConsole();
 console.log(`
-  Satyam Sheth HELLO
+  Satyam Sheth
   Software Enginer @ CVS Health
 
   LinkindIn -> https://linkedin.com/snsheth55

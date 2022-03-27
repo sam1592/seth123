@@ -1,6 +1,6 @@
 {
   "name": "seth123",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "bin": {
     "seth123": "index.js"
   },
