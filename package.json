@@ -1,10 +1,12 @@
 {
   "name": "seth123",
   "version": "1.1.2",
+  "description": "Seth bio",
   "bin": {
     "seth123": "index.js"
   },
   "dependencies": {
-    "clear-any-console": "^1.16.2"
+    "clear-any-console": "^1.16.2",
+    "cli-welcome": "^2.2.2"
   }
 }
