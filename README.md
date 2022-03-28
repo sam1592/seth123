@@ -1,4 +1,4 @@
-# `npx seth`
+# `npx seth123`
 
 > Get to know Seth using your command line with Node.js
 
