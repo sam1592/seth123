@@ -6,6 +6,7 @@
     "seth123": "index.js"
   },
   "dependencies": {
+    "chalk": "^2.4.2",
     "clear-any-console": "^1.16.2",
     "cli-welcome": "^2.2.2"
   },
