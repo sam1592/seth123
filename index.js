@@ -16,15 +16,9 @@ welcome({
 });
 
 log(`
-NAME: ${packageJson.name}
-VERSION: ${packageJson.version}
-DESC: ${packageJson.description}
-`)
+  ${chalk.bgBlue.bold(`Satyam Sheth`)}
+  ${chalk.green(`Software Enginer`)}${chalk.yellow(` @ `)}${chalk.red(`CVSHealth`)}
 
-log(`
-  ${chalk.blue(`Satyam Sheth`)}
-  Software Enginer @ CVS Health
-
-  LinkindIn -> https://linkedin.com/snsheth55
-  Github    -> https://github.com/samsheth92
+  ${chalk.inverse.blue(` LinkedIn `)} ${chalk.dim(`https://linkedin.com/snsheth55`)}
+  ${chalk.inverse.green(`  Github  `)} ${chalk.dim(`https://github.com/samsheth92`)}
 `);
