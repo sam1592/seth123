@@ -3,7 +3,17 @@ const packageJson = require('./package.json');
 const welcome = require('cli-welcome');
 const chalk = require('chalk');
 const log = console.log;
- 
+const sym = require('log-symbols');
+const alerts = require('seth-alerts');
+const nodeCheck = require('cli-check-node');
+
+//alerts colors
+const success = chalk.green
+const info = chalk.blue
+const warning = chalk.yellow
+const error = chalk.red
+
+
 welcome({
   title: `Get to know Seth`,
   version: `${packageJson.version}`,
@@ -15,6 +25,8 @@ welcome({
   clear: true,
 });
 
+nodeCheck('12')
+
 log(`
   ${chalk.bgBlue.bold(`Satyam Sheth`)}
   ${chalk.green(`Software Enginer`)}${chalk.yellow(` @ `)}${chalk.red(`CVSHealth`)}
@@ -22,3 +34,16 @@ log(`
   ${chalk.inverse.blue(` LinkedIn `)} ${chalk.dim(`https://linkedin.com/snsheth55`)}
   ${chalk.inverse.green(`  Github  `)} ${chalk.dim(`https://github.com/samsheth92`)}
 `);
+
+log(`
+${sym.success} ${success(` SUCCESS `)} Thanks for checking out my cli.
+${sym.info} ${info(` INFO `)} I am creating a CLI.
+${sym.warning} ${warning(` WARNING `)} Please don't copy me!
+${sym.error} ${error(` ERROR `)} I'm on vacation contact me next week.
+`)
+
+alerts({
+  type: "success",
+  name: "its working!",
+  msg: "imported npm modules!!!"
+})
